@@ -186,7 +186,7 @@ local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(Mouse.X, Mouse.Y)).ma
 
                 if (fov.Radius > magnitude and magnitude < shortestDistance) then	
 
-                    closestPlayer = v	
+                    closestPlayer = Q	
 
                     shortestDistance = magnitude	
 
@@ -196,7 +196,7 @@ local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(Mouse.X, Mouse.Y)).ma
 
                 if (magnitude < shortestDistance) then	
 
-                    closestPlayer = v	
+                    closestPlayer = Q	
 
                     shortestDistance = magnitude	
 
